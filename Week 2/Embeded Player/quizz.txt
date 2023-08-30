@@ -1,0 +1,21 @@
+You are creating an about page for a local business that includes an audio player. What are the elements and attributes needed for the audio player? Choose all that apply.      
+
+Type Attribute
+Correct
+
+That's correct! You have to set the type to specify the file format.      
+
+Audio Element
+Correct
+
+That's correct! Without the audio element there can't be an audio player.      
+
+Controls Attribute
+Correct
+
+That's correct! Without the controls attribute users won't be able to play or pause the audio.       
+
+Source Element
+Correct
+
+That's correct! You have to specify the source element so that you can set the src attribute to the audio file.      

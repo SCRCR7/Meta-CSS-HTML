@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Video Rating</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <style>
+     body{
+      background-color: rgb(197, 201, 201);
+     }
+     video{
+      display: block;
+      margin: auto;
+     }
+     
+     /* label{
+      display: block;
+      margin: auto;
+      text-align: center;
+     } */
+     button{
+      display: block;
+      margin: auto;
+      border: solid green 1px ;
+      padding: 5px;
+       background-color: rgb(168, 197, 197);
+     }
+  </style>
+</head>
+<body>
+  <div id="main">
+    <video width="320" height="240" controls loops muted>
+      <source src="video.mp4">
+    </video>
+    <form action="/example.com">
+       <div>
+       
+<label for="rating">
+  Rating </label>
+
+  <input type="range" id="rating" value="counting" name="count" min="1" max="5" list="ratings"/>
+  
+  <datalist id="ratings">
+  <option value="1"></option>
+  <option value="2"></option>
+  <option value="3"></option>
+  <option value="4"></option>
+  <option value="5"></option>
+  </datalist>
+        
+
+       </div>
+       
+   
+     
+    
+ 
+       
+
+
+       <div id="btn">
+        <button type="submit" name="btn"" >Sumbit Rating</button>
+       </div>
+
+      
+    </form>
+  </div>
+   
+</body>
+
+</html>

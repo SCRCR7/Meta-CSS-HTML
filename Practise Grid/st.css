@@ -1,0 +1,26 @@
+body{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-areas:  "head head"
+                          "n m"
+                           "f f";
+    grid-template-rows: 30px 1fr 30px;
+    height: 200px;
+}
+header{
+    grid-area: head;
+    background-color: red;
+
+}
+nav{
+ grid-area: n;
+ background-color: green;
+}
+main{
+    grid-area: m;
+    background-color: blue;
+}
+footer{
+    grid-area: f;
+    background-color: blueviolet;
+}

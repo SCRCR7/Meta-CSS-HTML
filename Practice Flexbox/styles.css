@@ -1,0 +1,60 @@
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+.flex-container{
+    /* parent */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: flex-end; */
+    flex:0 1 auto;
+}
+.box4{
+    /* child */
+    align-self: flex-start;
+}
+/* flex: [flex-grow] [flex-shrink] [flex-basis]; */
+/*  flex: [max] [min] [ideal size]; */
+.box3{
+    flex-grow: 1 2 1000px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.col1{
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+}
+/* parent is the row child is the column */
+.row3{
+    display: flex;
+    gap: 10px;
+    
+}
+.column1{
+    display: inline-flex;
+    gap: 20px;
+    order: 5;
+}
+.column2{
+    display: inline-flex;
+    gap: 20px;
+    order: 5;
+}
+
+/* formula Flexbox 
+ */
+ /* row and colum 
+  */
+  /* forgot child  */
+  /* again row and colum */

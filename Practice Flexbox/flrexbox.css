@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+body{
+
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    border: 3px solid red;
+}
+#container{
+    border: 4px solid brown;
+}
+.box{
+border: 1px solid purple;
+}
+.title{
+    align-self: flex-end;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}

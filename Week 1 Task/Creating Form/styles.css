@@ -1,0 +1,99 @@
+
+body{
+    background-color: rgb(220, 238, 238);
+}
+header{
+    margin:auto;
+ 
+}
+img{
+    max-width: 200px;
+    background-color: none;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin:auto;
+    margin-top:50px;
+    border-radius: 60%;
+    text-align: auto;
+    border: 2px solid green;
+    margin-bottom: 20px;
+    
+}
+
+nav ul {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+ul >li{
+    text-decoration: none;;
+    padding: 10px;
+    margin:auto;
+    color: green;
+    text-align: center;
+    display: inline-block;
+    
+}
+li a{
+    
+    text-decoration: none;
+    color: green;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(205, 225, 225);
+    border-radius: 2px;
+}
+a:link,
+a:visited,
+a:active{
+    color: green;
+    
+}
+a:hover{
+    background-color: rgb(175, 199, 199);
+    color: rgb(56, 82, 82);
+}
+h1{
+    text-align: center;
+    color: rgb(105, 13, 13);
+}
+
+footer{
+    background-color: rgb(197, 214, 228);
+    padding: 15px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+div{
+    padding: 0px;
+    margin-bottom: 10px;
+
+}
+div > input{
+    margin:auto;;
+    display: block;
+    padding: 2px;
+}
+div >label{
+    display: block;
+    text-align: center;;
+    position: relative;
+    top: 20px;
+    left: 0;
+
+}
+div > button{
+    display:block;
+    margin: auto;
+
+}
+button:hover{
+    cursor:pointer;
+}
+input:focus:invalid{
+    border: 2px solid blueviolet;
+}

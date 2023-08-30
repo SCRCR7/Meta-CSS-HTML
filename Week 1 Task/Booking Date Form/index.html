@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpg" />
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">log</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <h1>Sign Up</h1>
+        <form action="">
+            <div>
+                <label for="user_first_name">First Name</label><br>
+                <input type="text" id="user_first_name" name="user_first_name">
+            </div>
+            <div>
+                <label for="user_last_name">Last Name</label><br>
+                <input type="text" id="user_last_name" name="user_first_name">
+            </div>
+            <div>
+                <label for="user_email">Email</label><br>
+                <input type="email" id="user_email" name="user_email">
+            </div>
+            <div>
+                <label for="user_password">Password</label><br>
+                <input type="password" id="user_password" name="user_password">
+            </div>
+            <div>
+                <label for="user_confirm_password">Confirm Password</label><br>
+                <input type="password" id="user_confirm_password" name="user_confirm_password">
+            </div>
+            <div>
+                <button id="btn" type="submit">Sign Up</button>
+            </div>
+            <div>
+                <fieldset>
+                    <label>
+                        <input type="radio" value="2" name="size">2-person tabel
+                    </label>
+                    
+                    <label>
+                        <input type="radio" value="4" name="size" checked>4-person tabel
+                    </label>
+                    
+                    <label>
+                    <input type="radio" value="
+                    6" name="size">6-person tabel
+                    </label>
+                    
+                </fieldset>
+                <fieldset>
+                </label>
+                <input type="radio" value="indoors" name="Location" checked>Indoors
+                <label>
+                </label>
+                <input type="radio" value="outdoors" name="Location" >Outdoors
+                <label>
+                    
+   
+        
+                </fieldset>
+                <!-- What is the purpose of the fieldset element in an HTML form?      
+
+It sets the width of the input fields     
+
+It groups radio buttons.     
+
+It set the default value.     
+Correct
+
+That's right. If you do not add a fieldset element to each radio button, all radio buttons will belong to the same group.     -->
+<!-- booking Date -->
+            </div>
+            <div>
+                <label for="booking_date">Booking Date</label>
+                <input type="date" id="booking_date" name="booking_date" >
+            </div>
+            <div>
+            <label for="booking_people">Booking Date</label>
+            <input type="range" id="booking_people" name="booking_people" min="1" max="10" value="4">
+                <output>4</output> 
+                <!-- semantic html elment  -->
+            </div>
+
+            <div>
+                <label for="booking_location">Location</label>
+            <input id="booking_location" list="location">
+                <datalist id="location">
+                    <option value="DownTown"></option>
+                    <option value="Uptown"></option>
+                </datalist>
+                <!-- If you must add a question on a form where users need to pick an option from a very long list, you can add a datalist input type which will allow the user to begin typing to narrow down the available options based on their input.  
+Answer
+
+That's right. The Datalist input type is also useful when the list of options might become longer in future.   -->
+            </div>
+            <div>
+                <input type="month" name="" id="">
+                <input type="week">
+            </div>
+        </form>
+    </main>
+    <footer>&Copyright Littel Lemon</footer>
+</body>
+
+</html>

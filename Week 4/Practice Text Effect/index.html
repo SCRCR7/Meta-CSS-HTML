@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Effect</title>
+    <style>
+        .vertical{
+            overflow: hidden;
+            /* border: 2px solid blue; */
+            /* width: 100px; */
+            writing-mode: vertical-lr;
+        }
+       
+        /* word wrap */
+        .word-wrap{
+            
+            color: rgb(191, 118, 28);
+            border: 2px solid blue;
+            word-wrap: break-word;
+            overflow: hidden;
+            text-shadow: 0 0 7px rgb(117, 117, 106),
+            0 0 10px rgb(138, 138, 18),
+            0 0 7px rgb(38, 51, 164),
+            0 0 7px rgb(31, 205, 236),
+            0 0 7px rgba(185, 180, 27, 0.621),
+            0 0 7px rgb(138, 138, 30)
+
+
+            /* x y border radius shadow color */
+
+        }
+    </style>
+</head>
+<body>
+    <p class="word-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum eius optio commodi sit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio autem vel, velit omnis debitis ratione iure officia enim facere accusantium.</p>
+    <div class="vertical">12 to 15</div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, quae impedit! Eveniet libero aliquam eos nihil accusantium aspernatur necessitatibus consectetur obcaecati veniam officiis voluptates fuga sint, dolor repellat. Necessitatibus, quia.</p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.p::first-letter{
+   
+    color: red;
+}
+.p::first-line{
+    color: purple;
+}
+.p2::selection{
+ line-height: 1;
+ color: red;
+ background-color:skyblue;
+}
+li::marker{
+    content: "<>";
+    background-color: red;
+    font-size: 1.1em;
+}
+
+#tips::before{
+    background: darkkhaki;
+    color:darkslategray;
+    content: "Tip:";
+    padding-left: 3px;
+    padding-right: 5px;
+    border-radius: 10%;
+}
+
+#tips::after{
+    background:darkkhaki;
+    color:darkslategray;
+    content: "!!";
+    padding-right: 5px;
+    border-radius: 20%;
+}
